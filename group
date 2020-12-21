@@ -13,11 +13,11 @@ floppy:x:94:
 scanner:x:96:
 power:x:98:
 adm:x:999:daemon
-wheel:x:998:alarm,jane
+wheel:x:998:alarm,jane,willem,opsstudent
 kmem:x:997:
 tty:x:5:
 utmp:x:996:
-audio:x:995:
+audio:x:995:jane,willem
 disk:x:994:
 input:x:993:
 kvm:x:992:
@@ -26,7 +26,7 @@ optical:x:990:
 render:x:989:
 storage:x:988:
 uucp:x:987:
-video:x:986:
+video:x:986:jane,willem,opsstudent
 users:x:985:
 systemd-journal:x:984:
 rfkill:x:983:

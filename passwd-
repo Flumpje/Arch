@@ -14,4 +14,6 @@ systemd-coredump:x:978:978:systemd Core Dumper:/:/usr/bin/nologin
 uuidd:x:68:68::/:/usr/bin/nologin
 alarm:x:1000:1000::/home/alarm:/bin/bash
 git:x:977:977:git daemon user:/:/usr/bin/git-shell
-jane:x:1001:985::/home/jane:/bin/bash
+jane:x:1001:985::/home/jane:/sbin/nologin
+willem:x:1002:985::/home/willem:/bin/bash
+opsstudent:x:1003:985::/home/opsstudent:/bin/bash
